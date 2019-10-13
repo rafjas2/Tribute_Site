@@ -1,0 +1,23 @@
+{
+  "name": "tribute-site",
+  "version": "1.0.0",
+  "description": "Silvester Stalone Tribute Site ",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafjas2/Tribute_Site.git"
+  },
+  "author": "Rafal Jasinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafjas2/Tribute_Site/issues"
+  },
+  "homepage": "https://github.com/rafjas2/Tribute_Site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
