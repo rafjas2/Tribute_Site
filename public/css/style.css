@@ -1,3 +1,205 @@
 html {
-    background-color: #124567;
-}
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #dca785;
+  }
+  #wrap {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;                    
+    line-height: 1.5;
+  }
+  /*Navigation Bar*/
+  #nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0;
+    padding:0;
+    list-style: none;
+    background-color: #000;
+    border-radius: 0px 0px 10px 10px;
+  }
+  #nav li {
+    float: left;
+    width: 20%;  
+  }
+  #nav li a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+  }
+  #nav li a:hover {
+    background-color: #454f73;
+  }
+  /*Finish Navigation Bar*/
+  
+  /*Banner*/
+  #wrap header {
+    border: 3px solid #000;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #454f73;	
+  }
+  header p {
+    padding: 20px;
+    text-align: justify;
+  }
+  header p span {
+      font-weight: bold;
+  }
+  .banner {
+    min-height: 500px;
+    background-image: url(../img/Sylvester-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid #000;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .banner h1 {
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    font-size: 70px;
+    padding: 150px 0px 0px 100px; 
+    line-height: 1.1em;  
+  }
+  .banner span {
+    display: block;
+    font-size: 60px;
+    margin-left: 110px;	
+  }
+  .banner a {
+    font-size: 25px;
+    font-family:  'Roboto Slab', serif;
+    color: #000;
+    background-color: #454f73;
+    margin-left: 200px;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1.1;
+  }
+  .banner a:hover {
+    background-color: #dca785;
+  }
+  /*Finish Banner*/
+  
+  /* Early life,Hollywood career,Other film works,Personal life,Selected filmography*/
+  .container, .list {
+    width: 90%;
+    margin: 70px auto 25px auto;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding-bottom: 40px;  
+    background-color: #e2e2e2;
+    position: relative;
+    text-align:center;  
+  }
+  .container h2, .list h2 {
+    padding: 5px;
+    background-color: #454f73;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .container p {
+    padding: 10px 20px 5px 20px;
+    text-align: justify; 
+  }
+  .container  img {
+    width: 220px;
+    height: 310px;
+    border: 1px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    float: right;
+    margin: 20px; 
+    display :block;  
+  }
+  .container a, .list > a {
+    color: #000;
+    background-color: #454f73;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 3px solid #000;
+    border-radius: 10px; 
+    display: inline-block;
+    padding: 5px;
+  }
+  .container a:hover, .list > a:hover {
+    background-color: #dca785;
+    font-weight: bold;
+  }
+  .list{
+      margin-bottom:0;
+      border-bottom:0;
+      border-radius: 10px 10px 0 0;
+  }
+  .list ul {
+    width: 100%;
+    text-align: center;                                          
+    list-style: none;
+    float:left;
+    margin-left: 25px;
+  }
+  .list ul li {
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin: 5px;
+    padding:  0px;
+    background-color: #9b9b9b;
+    float:left;
+    width: 31%;
+  }
+  .list ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  .list ul li:hover {
+    background-color: #454f73;
+    font-weight: bold;  
+  }
+  /*Finish Early life,Hollywood career,Other film works,Personal life,Selected filmography*/
+  
+  /*footer*/
+  .bottom {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    height: 70px;
+  }
+  .bottom p {
+    padding: 25px 0 0 10px;
+    display:inline-block;
+  }
+   
+  
+  .icon { 
+    border: 2px solid #fff;
+    border-radius:5px;
+    padding: 3px;
+    float:right;
+    margin: 20px 20px 0 0;
+          
+  }
+  .icon a {
+    text-decoration:none;
+    color: #fff;
+  }
+  .icon:hover {
+    background-color: #454f73;
+  }
+  /*Finish footer*/
+  
