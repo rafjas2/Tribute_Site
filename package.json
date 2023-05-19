@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/rafjas2/Tribute_Site/issues"
   },
-  "homepage": "https://github.com/rafjas2/Tribute_Site#readme",
+  "homepage": "https://github.com/rafjas2/Tribute_Site",
   "dependencies": {
     "express": "^4.17.1"
   }
